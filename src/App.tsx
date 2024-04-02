@@ -1,7 +1,6 @@
 import treinoA from "./mocks/treinoA"
 import treinoB from "./mocks/treinoB"
 import treinoC from "./mocks/treinoC"
-import treinoD from "./mocks/treinoD"
 import aluno from "./mocks/aluno"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card } from "@/components/ui/card"
@@ -21,7 +20,7 @@ function App() {
     setPaginaAtual(proximaPagina);
   };
 
-  const treinos = [treinoA, treinoB, treinoC, treinoD];
+  const treinos = [treinoA, treinoB, treinoC];
   const paginas = treinos.length - 1 
 
   return (
@@ -69,7 +68,7 @@ function App() {
                   {exercicio.duracao && (
                     <div className='min-w-40 rounded-full flex flex-row items-center gap-2'>
                       <PiClockCountdownFill size={22}/>
-                      <p>{`${exercicio.duracao} minuto(s)`}</p>
+                      <p>{`${exercicio.duracao} segundos`}</p>
                     </div>
                   )}
                   {exercicio.repeticoes && (

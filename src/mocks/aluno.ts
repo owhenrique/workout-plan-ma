@@ -1,11 +1,11 @@
 import { Aluno } from "@/interfaces/types";
 
 const aluno: Aluno = {
-    foto: "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-    sigla: "JD",
-    nome: "Jonh Doe",
-    idade: "33",
-    peso: "75",
+    foto: "https://raw.githubusercontent.com/owhenrique/workout-plan-ma/main/public/avatar.jpeg",
+    sigla: "MA",
+    nome: "Mari Almeida",
+    idade: "58",
+    peso: "62",
     objetivo: "Hipertrofia"
 }
 
